@@ -119,8 +119,8 @@ class _HomePageState extends State<HomePage>
                   Expanded(
                     child: GridView.count(
                       crossAxisCount: 2,
-                      mainAxisSpacing: 16,
-                      crossAxisSpacing: 16,
+                      mainAxisSpacing: 10,
+                      crossAxisSpacing: 10,
                       children: [
                         _buildAnimatedCard(
                           context,
@@ -166,7 +166,7 @@ class _HomePageState extends State<HomePage>
                         backgroundColor: Colors.greenAccent,
                         padding: const EdgeInsets.symmetric(
                           vertical: 14,
-                          horizontal: 30,
+                          horizontal: 20,
                         ),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30),
