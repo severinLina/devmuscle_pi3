@@ -72,6 +72,7 @@ class _HomePageState extends State<HomePage>
                       const CircleAvatar(
                         radius: 20,
                         backgroundImage: AssetImage('assets/profile.jpg'),
+                        // Imagem de perfil do usuário(lembrar de tentar com outra imagem,essa n está funcionando)
                       ),
                     ],
                   ),
