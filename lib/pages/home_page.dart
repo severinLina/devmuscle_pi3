@@ -130,14 +130,7 @@ class _HomePageState extends State<HomePage>
                           color: Colors.redAccent,
                           delay: 0.2,
                         ),
-                        _buildAnimatedCard(
-                          context,
-                          icon: Icons.fitness_center,
-                          label: "Treino de Força",
-                          route: '/strength',
-                          color: Colors.orangeAccent,
-                          delay: 0.3,
-                        ),
+
                         _buildAnimatedCard(
                           context,
                           icon: Icons.history,
